@@ -5,11 +5,9 @@ class HomeCardMod extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: const <Widget>[Text('Card Status Mod N')],
-      ),
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: const <Widget>[Text('Card Status Mod N')],
     );
   }
 }
